@@ -238,7 +238,7 @@ def contar_tokens_por_clave(iterable_articulos, clave_fn, texto_fn):
     """
     Versión optimizada del patrón map→shuffle→reduce para conteo de tokens.
     En lugar de emitir millones de pares (clave, 1), acumula directamente
-    en un dict — equivale a aplicar un combiner local antes del shuffle.
+    en un dict
 
     Args:
         iterable_articulos: generador de dicts de artículos
