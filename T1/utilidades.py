@@ -21,18 +21,18 @@ import pyarrow as pa
 # ---------------------------------------------------------------------------
 STOPWORDS = {
     # artículos y determinantes
-    "el", "la", "los", "las", "un", "una", "unos", "unas",
+    "el", "la", "los", "las", "un", "una","uno", "unos", "unas", "the", 
     # preposiciones
     "a", "ante", "bajo", "con", "contra", "de", "desde", "durante",
     "en", "entre", "hacia", "hasta", "mediante", "para", "por",
     "segun", "sin", "sobre", "tras",
     # conjunciones
     "y", "e", "ni", "o", "u", "pero", "sino", "aunque", "porque",
-    "que", "si", "como", "cuando", "donde", "mientras", "pues",
+    "que", "si", "como", "cuando", "donde", "quien", "mientras", "pues",
     # pronombres
     "yo", "tu", "el", "ella", "nosotros", "vosotros", "ellos", "ellas",
     "me", "te", "se", "le", "lo", "la", "nos", "os", "les",
-    "este", "esta", "estos", "estas", "ese", "esa", "esos", "esas",
+    "este", "esta", "estos", "estas", "ese", "esa", "esos", "esas", "eso", "esto",
     "aquel", "aquella", "aquellos", "aquellas",
     # verbos auxiliares y comunes
     "es", "son", "era", "eran", "fue", "fueron", "ser", "estar",
