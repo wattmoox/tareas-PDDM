@@ -28,7 +28,7 @@ STOPWORDS = {
     "segun", "sin", "sobre", "tras",
     # conjunciones
     "y", "e", "ni", "o", "u", "pero", "sino", "aunque", "porque",
-    "que", "si", "como", "cuando", "donde", "quien", "mientras", "pues",
+    "que", "si", "como", "cuando", "donde", "quien", "mientras", "tanto", "pues",
     # pronombres
     "yo", "tu", "el", "ella", "nosotros", "vosotros", "ellos", "ellas",
     "me", "te", "se", "le", "lo", "la", "nos", "os", "les",
